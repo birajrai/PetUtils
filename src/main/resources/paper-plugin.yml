@@ -6,3 +6,13 @@ prefix: [ PetUtils ]
 authors: [ Biraj Rai ]
 description: A Minecraft Plugin which is capable to change pet's ownership
 website: https://birajrai.github.io/projects/petutils
+
+commands:
+  transferpet:
+    description: Transfer a pet to another player.
+    usage: /transferpet {playername}
+    permission: pettransfer.use
+  forcetransferpet:
+    description: Force transfer a pet to another player, regardless of ownership.
+    usage: /forcetransferpet {playername}
+    permission: petutils.ft
