@@ -1,0 +1,8 @@
+name: PetUtils
+version: '1.0-SNAPSHOT'
+main: io.github.birajrai.petutils.PetUtils
+api-version: '1.21'
+prefix: [ PetUtils ]
+authors: [ Biraj Rai ]
+description: A Minecraft Plugin which is capable to change pet's ownership
+website: https://birajrai.github.io/projects/petutils
